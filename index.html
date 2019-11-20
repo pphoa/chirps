@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<h1>Chirps</h1>
+		<ul>
+			{% for chirp in all_chirps %}
+				<li>{{chirp.id}} -- {{chirp.text}}</li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
